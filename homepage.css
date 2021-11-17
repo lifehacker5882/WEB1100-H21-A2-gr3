@@ -36,7 +36,7 @@
 	height: 100%;
 	position: fixed;
 	top: 90px;
-	background-image: url(assets/img/homepage1.jpg);
+	background-image: url(..//assets/img/homepage1.jpg);
 	background-repeat: no-repeat;
 	background-position: right 55px center;
 	box-sizing: border-box;
