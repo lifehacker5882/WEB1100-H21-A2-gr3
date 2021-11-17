@@ -1,86 +1,97 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Register new user</title>
-		<link rel="stylesheet" type="text/css" href="main.css">
-		<style>
-			div.form {
-				background-color: #008080;
-				color: white;
-				line-height: 18pt;
 
-			}
-			input[type='submit'] {
-				padding: 10px 25px 8px;
-				background-color: white;
-				color: #008080;
-				font-weight: bolder;
-			}
-			input[type='text'], input[type='email'],
-			input[type='password'] {
-			     width: 250px;
-			     padding: 10px;
-			     font-size: 14px;
-			     margin-top: 10px;
-			}
-			#clear {
-				clear: left;
-        		}
-			.center {
-			  display: block;
-			  margin-left: auto;
-			  margin-right: auto;
-			  width: 150px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="form">
-		<a href="index.html"><img class="center" src="assets/img/logo.png"></a>
-		<h1 style="text-align: center;">Register new user</h1>
-		<form name="register_new_user" style="margin: 0 auto; width: 220px;" action="/register_new_user.php"><br>
+<head>
+    <meta charset="utf-8">
+    <title>Register new user</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+        div.form {
+            background-color: #008080;
+            color: white;
+            line-height: 18pt;
 
-			<label for="fullname">Full name</label><br>
-			<input type="text" name="fullname" required><br><br>
+        }
 
-			<label for="adress">Adress</label><br>
-			<input type="text" name="fullname" required><br><br>
+        input[type='submit'] {
+            padding: 10px 25px 8px;
+            background-color: white;
+            color: #008080;
+            font-weight: bolder;
+        }
 
-			<label for="tlf">Phone number</label><br>
-			<input type="text" name="tlf" required><br><br>
+        input[type='text'],
+        input[type='email'],
+        input[type='password'] {
+            width: 250px;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
 
-			<label for="email">E-mail</label><br>
-			<input type="email" name="email" required><br><br>
+        #clear {
+            clear: left;
+        }
 
-			<label for="password">Password</label><br>
-			<input type="password" name="password" required><br><br>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 150px;
+        }
+    </style>
+</head>
 
-			<label for="dateofbirth">Date of birth</label><br>
-			<input type="text" name="dateofbirth" required><br><br>
+<body>
+    <div class="form">
+        <a href="index.html"><img class="center" src="assets/img/logo.png"></a>
+        <h1 style="text-align: center;">Register new user</h1>
+        <form name="register_new_user" style="margin: 0 auto; width: 220px;" action="/register_new_user.php"><br>
 
-			<label for="skills">Input your skills</label><br>
-			<textarea rows="4" cols="31" name="skills"></textarea> <br><br>
+            <label for="fullname">Full name</label><br>
+            <input type="text" name="fullname" required><br><br>
 
-			<input type="checkbox" name="termsandconditions" required>
-			<label for="termsandconditions">I have read and accepted the <a href="terms_and_conditions.html" target="_blank">Terms and conditions</a></label><br><br>
+            <label for="adress">Adress</label><br>
+            <input type="text" name="fullname" required><br><br>
 
-			<input type="submit" value="Submit">
-		</form><br><br>
-		</div>
-		    <footer class="about-footer" id="clear">
-       			<p style="float: left;">Address<br><br>
-          		Osloveien 48A</p>
-      			<p style="float: right; margin-right: 20px;">Social Media</p>
-      			<div class="media">
-           		<a href="http://www.facebook.com"><img src="assets/img/facebook.png" alt="" class="social-icons"></a>
-           		<a href="http://www.instagram.com"><img src="assets/img/instagram.png" alt="" class="social-icons"></a>
-            		<a href="http://www.twitter.com"><img src="assets/img/twitter.png" alt="" class="social-icons"></a>
-        		<p id="clear">P.O. Box</p>
-       			<p>3511 Hønefoss</p>
-      			 <p>Contact:</p>
-     			<p>+47 310 08 080</p>
- 		   </footer>
-		
-	</body>
+            <label for="tlf">Phone number</label><br>
+            <input type="text" name="tlf" required><br><br>
+
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" name="password" required><br><br>
+
+            <label for="dateofbirth">Date of birth</label><br>
+            <input type="text" name="dateofbirth" required><br><br>
+
+            <label for="skills">Input your skills</label><br>
+            <textarea rows="4" cols="31" name="skills"></textarea> <br><br>
+
+            <input type="checkbox" name="termsandconditions" required>
+            <label for="termsandconditions">I have read and accepted the <a href="terms_and_conditions.html"
+                    target="_blank">Terms and conditions</a></label><br><br>
+
+            <input type="submit" value="Submit">
+        </form><br><br>
+    </div>
+    </div>
+    <footer class="about-footer" id="clear">
+        <p style="float: left;">Address<br><br>
+            Osloveien 48A</p>
+        <p style="float: right; margin-right: 20px;">Social Media</p>
+        <div class="media">
+            <a href="http://www.facebook.com"><img src="assets/img/facebook.png" alt="" class="social-icons"></a>
+            <a href="http://www.instagram.com"><img src="assets/img/instagram.png" alt="" class="social-icons"></a>
+            <a href="http://www.twitter.com"><img src="assets/img/twitter.png" alt="" class="social-icons"></a>
+        </div>
+
+        <p id="clear">P.O. Box</p>
+        <p>3511 Hønefoss</p>
+        <p>Contact:</p>
+        <p>+47 310 08 080</p>
+    </footer>
+</body>
+
 </html>
