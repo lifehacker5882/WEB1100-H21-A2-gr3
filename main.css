@@ -143,6 +143,12 @@ padding: 15px;
     margin-left: 50px;
 }
 
+.contact-text {
+    text-align: left;
+    background-color: teal;
+    color: white;
+}
+
 ####################################
 
 /*Dung / About Us*/
