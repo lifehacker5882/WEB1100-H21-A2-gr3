@@ -1,22 +1,4 @@
-/* body {
-	font-family: arial;
-}
 
-div.form {
-	background-color: #008080;
-	color: white;
-	line-height: 18pt;
-}
-footer {
-	display: block;
-  	margin: 0 auto;
-  	width: 250px;
-}
-
-p {
-	color: white;
-}
- */
  .about-us {
     font-size: 50px;
     color:white;
@@ -154,7 +136,7 @@ padding: 15px;
   margin-right: auto;
   width: 100px;
 
-div.form {
+/*div.form {
 	background-color: #008080;
 	color: white;
 	line-height: 18pt;
@@ -173,6 +155,7 @@ input[type='password'] {
      font-size: 14px;
      margin-top: 10px;
 }
+*/
 
 .banner-area h1 {
 	position: absolute;
