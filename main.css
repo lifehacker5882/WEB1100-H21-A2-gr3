@@ -1,0 +1,173 @@
+/* body {
+	font-family: arial;
+}
+
+div.form {
+	background-color: #008080;
+	color: white;
+	line-height: 18pt;
+}
+footer {
+	display: block;
+  	margin: 0 auto;
+  	width: 250px;
+}
+
+p {
+	color: white;
+}
+ */
+ .about-us {
+    font-size: 50px;
+    color:white;
+    text-align: left;
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+.about-p1 {
+    font-size: 20;
+    color:white;
+    text-align: left;
+    background-color: teal; 
+    padding: 20px;
+    margin-top: 0;
+    text-align: left;
+}
+
+.about-p2 {
+    font-size: 20;
+    color:white;
+    text-align: left;
+    background-color: teal; 
+    padding: 20px;
+    margin-top: 0;
+    clear: left;
+
+}
+
+.about-p3 {
+    font-size: 20px;
+    color:white;
+    background-color: teal; 
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-what-can-we-offer {
+    font-size: 50px;
+    color:white;
+    background-color: teal;
+    padding: 15px;
+    margin: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.about-footer {
+    background-color: teal;
+    font-size: 20;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.name {
+    background-color: teal;
+    font-size: 15;
+    color: white;
+    width: 170px;
+}
+
+.about-picture {
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    float: left;
+}
+
+.about-gpicture {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 0 10px 0 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+.column {
+float: left;    
+width: 33.33%;
+padding: 15px;
+}
+
+.contact {
+    font-size: 100px;
+    color:white;
+    text-align: left;
+    background-color: teal;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 0;
+    height: auto;
+}
+
+.contact-image {
+    float:right;
+    width: 50%;
+    height: auto;
+    margin: 20px;
+}
+
+div.form {
+	background-color: #008080;
+	color: white;
+	line-height: 18pt;
+
+}
+input[type='submit'] {
+	padding: 10px 25px 8px;
+	background-color: white;
+	color: #008080;
+	font-weight: bolder;
+}
+input[type='text'], input[type='email'],
+input[type='password'] {
+     width: 250px;
+     padding: 10px;
+     font-size: 14px;
+     margin-top: 10px;
+}
+.label {
+    background-color: teal;
+    color: white;
+}
+
+.social-icons {
+    width: 32px;
+    float: right;
+    margin-right: 20px;
+    /* display: inline-block; */
+}
+
+.media {
+    width: 100%;
+    float: right;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
