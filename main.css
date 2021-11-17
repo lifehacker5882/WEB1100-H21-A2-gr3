@@ -136,6 +136,13 @@ padding: 15px;
     float: right;
 }
 
+.form {
+    margin: 15px;
+    width: 250px;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
 ####################################
 
 /*Dung / About Us*/
