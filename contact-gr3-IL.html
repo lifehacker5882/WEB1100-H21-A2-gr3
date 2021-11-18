@@ -7,6 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>Contact Us</title>
+        <script type="text/javascript">
+        function validate() {
+            var error = "";
+            var name = document.getElementById("name");
+            if (name.value == "") {
+                error = " You Have To Write Your Name. ";
+                document.getElementById("error_para").innerHTML = error;
+                return false;
+            }
+            var name = document.getElementById("surname");
+            if (name.value == "") {
+                error = " You Have To Write Your Surname. ";
+                document.getElementById("error_para").innerHTML = error;
+                return false;
+            }
+            var email = document.getElementById("email");
+            if (email.value == "" || email.value.indexOf("@") == -1) {
+                error = " You Have To Write Valid Email Address. ";
+                document.getElementById("error_para").innerHTML = error;
+                return false;
+            }
+            var phonenumber = document.getElementById("phonenumber");
+            if (phonenumber.value == "" || phonenumber.value.length < 8) {
+                error = " Phonenumber Must Be More Than Or Equal To 8 Digits. ";
+                document.getElementById("error_para").innerHTML = error;
+                return false;
+            }
+            var message = document.getElementById("message");
+            if (message.value == "" || message.value.length < 8) {
+                error = " Message cannot be empty. ";
+                document.getElementById("error_para").innerHTML = error;
+                return false;
+            }
+            else {
+                error = "Your message has been registered";
+                document.getElementById("error_para").innerHTML = error;
+                //alert("You've logged in!");
+                return false;
+            }
+        }
+    </script>
     <style>
         #clear {
             clear: both;
@@ -22,10 +63,9 @@
 
 <body id="clear">
     <img src="assets/img/customerservice.jpg" alt="customer service" class="contact-image">
-    <div class="contact-form">
+    <div class="form">
         <h1 class="contact-text">We want to hear from you!</h1>
-        <form action="/register_new_user.php"><br>
-
+        <form method="POST" action="" onsubmit="return validate();">
             <label for="name" class="label">Name</label>
             <input type="text" id="name" name="name"><br>
             <br>
@@ -33,16 +73,17 @@
             <input type="text" id="surname" name="surname"><br>
             <br>
             <label for="email" class="label">E-mail adress</label>
-            <input type="email" name="email"><br>
+            <input type="email" id="email" name="email"><br>
             <br>
-            <label for="phone-number" class="label">Phone Number</label>
-            <input type="text" name="phone-number"><br>
+            <label for="phonenumber" class="label">Phone Number</label>
+            <input type="text" id="phonenumber" name="phonenumber"><br>
             <br>
             <label for="message" class="label">Message</label>
-            <input type="text" name="dateofbirth"><br>
+            <input type="text" id="message" name="message"><br>
             <br>
             <input type="submit" value="Submit">
-        </form><br><br>
+        </form>
+        <p id="error_para"></p> <br><br>
     </div>
 
     <footer class="about-footer" id="clear">
